@@ -1,0 +1,12 @@
+HOVER
+
+BG #E7F1D7
+FR #94B75F
+
+LINK
+
+BG #cee3ac
+
+FR #b8da83
+
+

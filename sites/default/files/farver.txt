@@ -1,0 +1,49 @@
+Grå baggrund på siden / i tabeller
+#f5f5f5
+
+BRØDTEKST
+	font-family: Arial;
+	line-height: 16px;
+	font-size: 12px;
+	color: #333333;
+
+a 
+{
+	text-decoration: none;
+}
+
+
+Manchetfarve / Listetekst / Mindretekst
+#666666
+
+Rød tekst - ikke links
+#d40a26
+
+
+DADL Rød + links
+#b60a23;
+
+
+PLO orange:
+#ed6132
+
+FAS blå:
+#3f468a
+
+YNGRE LÆGER grøn:
+#4c959c
+
+Border / rammer:
+#999999
+
+
+SYNTAX
+
+font: normal 11px Arial;
+
+
+font-style | font-variant | font-weight | font-size | font-family
+
+
+
+534 -> 456

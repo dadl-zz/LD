@@ -1,0 +1,45 @@
+
+<!-- TWO STEPS TO INSTALL DISABLE FORM CONTROLS:
+
+  1.  Copy the coding into the HEAD of your HTML document
+  2.  Add the last code into the BODY of your HTML document  -->
+
+<!-- STEP ONE: Paste this code into the HEAD of your HTML document  -->
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+function CheckCheckBox(frm)
+  {
+    if (!frm.CheckThis.checked)
+      frm.CheckThis.focus()
+  }
+//  End -->
+</script>
+
+</HEAD>
+
+<!-- STEP TWO: Copy this code into the BODY of your HTML document  -->
+
+<BODY>
+
+<form>
+<input type="CHECKBOX" name="CheckThis">
+To enter your name below, activate (check) this box.
+<p>
+Name: 
+<input type="TEXT" name="UserName" onfocus="CheckCheckBox(this.form)">
+</form>
+
+
+<p><center>
+<font face="arial, helvetica" size"-2">Free JavaScripts provided<br>
+by <a href="http://javascriptsource.com">The JavaScript Source</a></font>
+</center><p>
+
+<!-- Script Size:  0.96 KB -->
